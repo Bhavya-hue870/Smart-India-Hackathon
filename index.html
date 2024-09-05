@@ -1,0 +1,33 @@
+// index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Language to Text</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sign Language to Text</h1>
+    </header>
+    <main>
+        <section id="upload-section">
+            <h2>Upload your sign language video</h2>
+            <input type="file" id="video-input" accept="video/*">
+            <button id="upload-button">Upload</button>
+        </section>
+        <section id="result-section">
+            <h2>Translated Text</h2>
+            <p id="translated-text"></p>
+        </section>
+        <section id="learning-section">
+            <h2>Learn Sign Language</h2>
+            <ul id="lesson-list">
+                <!-- lesson list will be generated dynamically -->
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
